@@ -1,0 +1,24 @@
+{
+  "name": "whenenv.js",
+  "version": "0.0.1",
+  "description": "a simple environment script to run code depending on when in node or browser",
+  "main": "./lib/whenenv.js",
+  "scripts": {
+    "test": "node ./specs/whenenv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/influx6/whenenv"
+  },
+  "keywords": [
+    "whenenv",
+    "when",
+    "environment"
+  ],
+  "author": "Alexander Adeniyin Ewetumo",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/influx6/whenenv/issues"
+  },
+  "homepage": "https://github.com/influx6/whenenv"
+}
