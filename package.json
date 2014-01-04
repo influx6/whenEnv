@@ -1,10 +1,13 @@
 {
-  "name": "whenenv.js",
+  "name": "whenEnv",
   "version": "0.0.1",
   "description": "a simple environment script to run code depending on when in node or browser",
   "main": "./lib/whenenv.js",
   "scripts": {
     "test": "node ./specs/whenenv.js"
+  },
+  "dependencies":{
+    "em.js":"0.x.x"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ var we = require('em')('../lib/whenenv.js');
 
 var nid = we.node(function(){
   console.log('whenEnv: running in node');
-  return -1;
+  return 0;
 });
 
 var cid = we.browser(function(){

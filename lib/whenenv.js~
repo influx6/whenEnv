@@ -1,4 +1,4 @@
-require('em.js')('whenEnv',function(em){
+require('em')('whenEnv',function(em){
         
         var isBrowser = (function(){
 	        return (((typeof window !== 'undefined' && !!navigator && !!document) || 
@@ -22,6 +22,9 @@ require('em.js')('whenEnv',function(em){
 	   browser: function(fn){
 	        return doWhen(isBrowser,fn);
 	   },
+	   when: function(fn,fb){
+	       return (this.node(fn) || this.browser(fb));
+	   }
 	};
 	
 },this);
